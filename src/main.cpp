@@ -12,7 +12,7 @@ int main(){
 
     std::cout << dynamic_greeting;
 
-    delete dynamic_greeting;
+    delete[] dynamic_greeting;
     
     return 0;
 }
